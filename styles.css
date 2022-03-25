@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(0, 183, 255);}
+  
+  p {
+    color: green;}
+  li {
+      color: salmon
+  }
+  li {
+    list-style-type: square;
+  }
+  .special {
+  color: orange;
+  font-weight: bold;
+}
+li em {
+    color: rebeccapurple;
+  }
+  h1 + p {
+    font-size: 200%;
+  }
