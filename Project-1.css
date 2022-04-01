@@ -1,0 +1,15 @@
+body {
+  background: #e5e5e5;
+  padding: 2em;
+}
+div {
+    /* position: absolute ; */
+    width: 1058px;
+    height: 786px;
+    /* left: 191px;
+    top: 119px;
+     */
+     margin: auto;
+     /* justify-content: center; */
+    background: #FFFFFF;
+}
