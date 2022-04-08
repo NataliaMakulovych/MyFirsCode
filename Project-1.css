@@ -1,15 +1,74 @@
 body {
-  background: #e5e5e5;
-  padding: 2em;
+  margin: 0;
+  font-family: Tahoma;
 }
-div {
-    /* position: absolute ; */
-    width: 1058px;
-    height: 786px;
-    /* left: 191px;
-    top: 119px;
-     */
-     margin: auto;
-     /* justify-content: center; */
-    background: #FFFFFF;
+
+.cover {
+  height: 100vh;
+}
+.todo-wrapper {
+  height: 100vh;
+  padding-top: 120px;
+  background-color: #E5E5E5;
+  text-transform: uppercase;
+  text-align: center;
+  color: #09165F;
+}
+.white-box {
+  margin: 120px 190px;
+  width: 100%;
+  height: 100%;
+  }
+  .content {
+    padding: 160px 180px 580px;
+  }
+.content_main {
+  background: whitesmoke;
+  width: 700px;
+  display: flex;
+  border-radius: 60px;;
+  color:whitesmoke;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.content_main_input {
+  background: whitesmoke;
+  width: 620px;
+  height: 100%;
+  display: inline-block;
+  border: none;
+  padding:5px 5px 5px 25px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.content_main_input:focus-visible {
+  outline: none ;
+}
+.content_main_button {
+  background-color: rgb(85,115,275);
+  width: 40px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.inputs-content_button:active {
+  background-color: rgb(64,90,238);
+}
+button:hover {
+  color: black;
+}
+.header-items, 
+.todolist {
+  color:black;
+  text-align: left;
+}
+.done-button {
+  color:black;
+  text-align: center;
+  margin-right: 20px ;
 }

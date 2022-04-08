@@ -1,13 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project-1</title>
     <link rel="stylesheet" href="Project-1.css" />
-</head>
-<body>
-  <div>Todolist</div>  
-</body>
+  </head>
+  <body>
+    <div class="todo-wrapper">
+      <h1 class="label">Todolist</h1>
+      <div class="white-box">
+        <div class="content">
+          <div class="content_main">
+            <input
+              type="text"
+              placeholder="New todo"
+              class="content_main_input"
+            />
+            <button class="content_main_button">+</button> >
+          </div>
+          <p class="header-items">You have 10 pending items</p>
+          <div class="todolist">
+            Read the book
+            <em class="submission">
+              <input class="done-button" type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div class="todolist">
+            Pick a project
+            <em class="submission">
+              <input class="done-button" type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div class="todolist">
+            Go to the gym
+            <em class="submission">
+              <input class="done-button" type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div class="todolist">
+            Learn JS
+            <em class="submission">
+              <input class="done-button" type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div class="todolist">
+            Don't forget to eat
+            <em class="submission">
+              <input class="done-button"  type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div class="todolist">
+            Do homework
+            <em class="submission">
+              <input class="done-button" type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div class="todolist">
+            Do homework
+            <em class="submission">
+              <input class="done-button" type="submit" value="Done" />
+            </em>
+          </div>
+          <hr />
+          <div>
+            <section class="submission">
+              <input type="submit" name="Clear all" value="Clear all" />
+              <input
+                type="submit"
+                name="complete Selected"
+                value="Complete selected"
+              />
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
